@@ -1,0 +1,38 @@
+.facilities h2 {
+  text-align: center;
+}
+.facilities-text {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.facilities__inner {
+  background: #fff;
+  border: 2px solid #e7e7e7;
+  border-radius: 20px;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.facilities__item {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1 1 45%;
+  width: 25%;
+}
+
+.item__title {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.facilities__item .text {
+  font-size: 0.875rem;
+  font-weight: 500;
+  width: 100%;
+}

@@ -10,6 +10,18 @@
   font-family: "Montserrat", sans-serif;
   src: url(../fonts/Montserrat-Bold.ttf);
 }
+
+@font-face {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+}
+
 .main {
   color: var(--dark-color);
   background-color: var(--light-dark-color);
@@ -47,6 +59,12 @@ h3 {
   font-size: 1.5rem;
 }
 
+h4{
+  font-size: 1.125rem;
+  font-weight: 600;
+  font-family: 'Gilroy';
+}
+
 p{
   font-weight: 400;
   font-size: 1.125rem;
@@ -75,6 +93,8 @@ a {
   h3 {
     font-size: 1.4rem;
   }
+
+
   p {
     font-size: 1rem;
   }
@@ -84,7 +104,7 @@ a {
   }
 }
 
-@media (max-width: 650px) {
+@media screen and (max-width: 650px) {
   html {
     font-size: 14px;
   }
@@ -94,14 +114,14 @@ a {
   }
 
   h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-top: 2rem;
     line-height: 100%;
     margin-bottom: 1.5rem;
   }
 
   h3 {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
   }
   p {
     font-size: 0.875rem;
@@ -109,5 +129,11 @@ a {
 
   button {
     font-size: 0.875rem;
+  }
+}
+
+@media screen and (max-width:380px){
+  h2{
+    font-size: 1.8rem;
   }
 }

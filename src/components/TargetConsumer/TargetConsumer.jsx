@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import targetImage from '../../assets/images/targetConsumer/target.png';
 
-import likeIcon from '../../assets/images/targetConsumer/target-icon1.png';
-import schoolIcon from '../../assets/images/targetConsumer/target-icon2.png';
-import groupIcon from '../../assets/images/targetConsumer/target-icon3.png';
+import LikeIcon from '../../assets/icons/LikeIcon';
+import SchoolIcon from '../../assets/icons/SchoolIcon';
+import GroupIcon from '../../assets/icons/GroupIcon';
 
 const TargetConsumer = () => {
   return(
@@ -12,7 +12,9 @@ const TargetConsumer = () => {
           <h2>Для кого подходит?</h2>
         <div className="target-consumer__content">
           <div className="target-consumer__block main-block">
-            <Image src={likeIcon} alt="like icon"/>
+            <div className="icon">
+              <LikeIcon/>
+            </div>
             <Image className="target-picture" src={targetImage} alt="target image"/>
             <div className="target-consumer__info">
             <h3 className="target-text3">Школьники</h3>
@@ -21,12 +23,16 @@ const TargetConsumer = () => {
           </div>
           <div className="target__content-2col">
             <div className="target-consumer__block">
-            <Image src={schoolIcon} alt="school icon"/>
+            <div className="icon">
+              <SchoolIcon/>
+            </div>
             <h3 className=" target-text3">Студенты СУЗов и ВУЗов</h3>
             <p className="target-text">Благодаря большому количеству поддерживаемых языков программирования студенты различных направлений смогут погрузиться в изучение мобильной робототехники!</p>
           </div>
           <div className="target-consumer__block">
-            <Image src={groupIcon} alt="group icon"/>
+          <div className="icon">
+              <GroupIcon/>
+            </div>
             <h3 className=" target-text3">Слушатели курсов квалификации</h3>
             <p className="target-text">Для проведения курсов преподавателям достаточно обычного кабинета с ноутбуками или стационарными компьютерами, что позволит в том числе проводить онлайн уроки по всему миру!</p>
           </div>
