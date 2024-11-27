@@ -7,6 +7,7 @@ import '../src/components/Features/features.css';
 import '../src/components/Facilities/facilities.css';
 import '../src/components/Versions/versions.css';
 import '../src/components/Contacts/contacts.css';
+import '../src/components/Footer/footer.css';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

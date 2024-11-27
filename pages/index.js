@@ -2,6 +2,7 @@
 import Contacts from '../src/components/Contacts/Contacts';
 import Facilities from '../src/components/Facilities/Facilities';
 import Features from '../src/components/Features/Features';
+import Footer from '../src/components/Footer/Footer';
 import Header from '../src/components/Header/Header';
 import Intro from '../src/components/Intro/Intro';
 import Programs from '../src/components/Programs/Programs';
@@ -21,6 +22,7 @@ const MainPage = () => {
       <Versions/>
       <Contacts/>
     </div>
+    <Footer/>
     </>
   );
 }
